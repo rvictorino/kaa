@@ -3,9 +3,10 @@
 
 import os, sys, gnupg, cgi, systemFunctions
 
-def createPGPkey(nameUser):
+def createPGPkey():
     print ("function createPGPkey :)")
-
+    print
+    nameUser = raw_input("Entrez votre pseudo : ")
 
     # Création du dossier contenant les clés
     #os.system('rm -rf /home/miloud/PycharmProjects/PyGPG/gpghome/')
